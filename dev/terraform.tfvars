@@ -1,0 +1,17 @@
+vpccidr = "10.0.0.0/20"
+vpcname = "babaji-vpc"
+az = ["us-east-1a", "us-east-1b"]
+subnetcidr = ["10.0.1.0/24", "10.0.2.0/24"]
+pubsubname = "babaji-pub"
+priaz = "us-east-1a"
+pricidr = "10.0.2.0/24"
+prisubname = "babaji-pri"
+babajiigw = "babaji-igw"
+igwcidr = "0.0.0.0/0"
+rtname = "babaji-routetable"
+block1 = ["0.0.0.0/0"]
+block2 = ["0.0.0.0/0"]
+block3 = ["0.0.0.0/0"]
+sgname = "babaji-sg"
+amiid = "ami-05ffe3c48a9991133"
+intype = "t2.micro"
